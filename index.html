@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chaitanya Vamsi – Freelance Quality, Process and Dashboard Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14213d;--muted:#52607a;--paper:#f6f8fb;--card:#fff;--line:#d6dee9;--teal:#0f766e;--tealbg:#dff3f0;--hero:#14213d;--herotx:#f6f8fb;--heromu:#b9c6dc;--herobtn:#5eead4;--herobtntx:#0b2530;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#eaf0fa;--muted:#9fb0c9;--paper:#0f1a2e;--card:#16243d;--line:#2a3b5a;--teal:#4fd1c0;--tealbg:#12383a;--hero:#0a1424}}
+:root[data-theme="dark"]{--ink:#eaf0fa;--muted:#9fb0c9;--paper:#0f1a2e;--card:#16243d;--line:#2a3b5a;--teal:#4fd1c0;--tealbg:#12383a;--hero:#0a1424}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Schibsted Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--teal)}a:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+.hero{background:var(--hero);color:var(--herotx);padding:20px 0 72px}
+.hero nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;font-size:15px;font-weight:500}
+.hero nav a{color:var(--heromu);text-decoration:none;margin-left:18px}.hero nav a:first-child{margin-left:0;color:var(--herotx);font-weight:700}
+.hero h1{font-size:clamp(36px,7vw,64px);line-height:1.04;letter-spacing:-.03em;font-weight:800;margin:56px 0 18px;max-width:780px}
+.hero p{color:var(--heromu);font-size:clamp(18px,2.4vw,21px);max-width:620px;margin:0 0 28px}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;font-weight:700;text-decoration:none}
+.btn.p{background:var(--herobtn);color:var(--herobtntx)}
+.hero .facts{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:34px;color:var(--heromu);font-size:15px}
+h2{font-size:30px;letter-spacing:-.02em;margin:0 0 8px}
+.lead{color:var(--muted);margin:0 0 26px;max-width:620px}
+section{padding:64px 0 0}
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px;display:flex;flex-direction:column}
+.card h3{margin:0 0 8px;font-size:20px}.card p{margin:0 0 12px;color:var(--muted);font-size:16px}
+.card ul{margin:0 0 16px;padding-left:19px;font-size:15.5px}.card li{margin:4px 0}
+.card a.go{margin-top:auto;font-weight:700;text-decoration:none}
+.card a.go:hover{text-decoration:underline}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.steps li{counter-increment:s;border-top:3px solid var(--teal);padding-top:12px}
+.steps li::before{content:"Step " counter(s);display:block;color:var(--teal);font-weight:700;font-size:14px}
+.steps h3{margin:2px 0 4px;font-size:18px}.steps p{margin:0;color:var(--muted);font-size:15.5px}
+.proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.proof div{background:var(--tealbg);border-radius:10px;padding:18px}
+.proof b{display:block;font-size:26px;color:var(--teal);letter-spacing:-.02em}
+.proof span{font-size:15px}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tools span{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:4px 14px;font-size:14px}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:700}details p{margin:10px 0 0;color:var(--muted)}
+.contact{background:var(--tealbg);border-radius:14px;padding:32px;margin-top:64px}
+.contact p{margin:6px 0}
+footer{padding:36px 0 48px;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<nav aria-label="Sections"><a href="#top">Chaitanya Vamsi</a><span><a href="#services">Services</a><a href="#process">How it works</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></span></nav>
+<h1 id="top">Better quality, cleaner processes and dashboards your team will use.</h1>
+<p>I help customer support and operations teams raise resolution rates and customer satisfaction, and see their numbers clearly. Six Sigma Green Belt and Lean certified, with 6+ years in BPO/ITES.</p>
+<a class="btn p" href="mailto:vamsichaityanya208@gmail.com?subject=Freelance%20enquiry">Tell me about your project</a>
+<div class="facts"><span>Based in Hyderabad, India</span><span>Works remotely</span><span>English, Hindi and Telugu</span></div>
+</div></header>
+
+<main class="wrap">
+<section id="services" style="padding-top:56px">
+<h2>What I can do for you</h2>
+<p class="lead">Four services, each scoped to your team and agreed before we start.</p>
+<div class="svc">
+<div class="card"><h3>Quality audits and QA setup</h3><p>A QA framework your team can run without you.</p><ul><li>Call and case audit forms and scoring</li><li>Call calibration and monitoring routines</li><li>Review and feedback cadence</li></ul><a class="go" href="mailto:vamsichaityanya208@gmail.com?subject=Quality%20audits%20and%20QA%20setup">Ask about QA setup</a></div>
+<div class="card"><h3>Process improvement</h3><p>Find why customers call back, then fix it.</p><ul><li>Root cause analysis on repeat contacts</li><li>Lean and Six Sigma based fixes</li><li>SOPs and process documentation</li></ul><a class="go" href="mailto:vamsichaityanya208@gmail.com?subject=Process%20improvement">Ask about process work</a></div>
+<div class="card"><h3>Dashboards and reporting</h3><p>One view of the metrics that matter.</p><ul><li>Excel, Power BI, Tableau and Salesforce dashboards</li><li>KPI tracking: FCR, CSAT, AHT, SLA, productivity</li><li>Weekly and monthly business review decks</li></ul><a class="go" href="mailto:vamsichaityanya208@gmail.com?subject=Dashboards%20and%20reporting">Ask about dashboards</a></div>
+<div class="card"><h3>Training and coaching programs</h3><p>Faster ramp-up and steadier performance.</p><ul><li>New-hire onboarding and call-flow training</li><li>Side-by-side coaching plans</li><li>Material for chat, call and email support</li></ul><a class="go" href="mailto:vamsichaityanya208@gmail.com?subject=Training%20and%20coaching">Ask about training</a></div>
+</div>
+</section>
+
+<section id="proof">
+<h2>Results from my current role</h2>
+<p class="lead">Leading a 20-member support team at Genpact, April 2023 to present.</p>
+<div class="proof">
+<div><b>34% to 84%</b><span>ODR</span></div>
+<div><b>13% to 72%</b><span>First contact resolution</span></div>
+<div><b>70% to 92%</b><span>CSAT</span></div>
+<div><b>292 to 1,476</b><span>Monthly closed cases at peak</span></div>
+</div>
+<div class="tools"><span>Excel</span><span>Power BI</span><span>Tableau</span><span>SQL</span><span>MySQL</span><span>Salesforce</span></div>
+<p class="lead" style="margin-top:20px"><a href="portfolio.html">See my full portfolio</a></p>
+</section>
+
+<section id="process">
+<h2>How we’d work together</h2>
+<p class="lead">A short, clear sequence so you always know what happens next.</p>
+<ol class="steps">
+<li><h3>Intro call</h3><p>You describe the problem and the metrics you want to move.</p></li>
+<li><h3>Scope</h3><p>I send a written plan with deliverables and timeline for your approval.</p></li>
+<li><h3>Build</h3><p>I do the work and share progress at agreed checkpoints.</p></li>
+<li><h3>Handover</h3><p>You get the files, documentation and a walkthrough for your team.</p></li>
+</ol>
+</section>
+
+<section id="faq">
+<h2>Common questions</h2>
+<details><summary>Which industries do you work with?</summary><p>My experience is in customer support and operations for BPO/ITES and client-facing service teams, including chat, call and email processes.</p></details>
+<details><summary>Can you work with my existing tools?</summary><p>Yes. I work in Excel, Power BI, Tableau, SQL and Salesforce, and can adapt to the systems your team already uses.</p></details>
+<details><summary>How do you charge?</summary><p>Pricing depends on scope, so I quote per project after the intro call. Send me your requirements and I’ll reply with a proposal.</p></details>
+<details><summary>What time zones can you cover?</summary><p>I’m based in India and can arrange calls that overlap with your working hours.</p></details>
+</section>
+
+<div class="contact" id="contact">
+<h2>Start with a short message</h2>
+<p>Share your team size, the process involved and the result you want. I’ll reply with next steps.</p>
+<p><a class="btn p" style="background:var(--teal);color:var(--paper)" href="mailto:vamsichaityanya208@gmail.com?subject=Freelance%20enquiry">vamsichaityanya208@gmail.com</a></p>
+<p><a href="tel:+918143357404">+91 81433 57404</a> · <a href="https://www.linkedin.com/in/chaitanya-vamsi-0bb6a2117" target="_blank" rel="noopener">LinkedIn</a></p>
+</div>
+<footer>© 2026 Chaitanya Vamsi. Freelance quality and operations services.</footer>
+</main>
+</body>
+</html>
